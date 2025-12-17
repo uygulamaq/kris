@@ -23,9 +23,10 @@ For more information on each subcommand, type 'kris help <subcommand>'.
 
 ## Requirements
 
-Kris requires [Zig][] to be installed and available on your PATH. Zig is used
-to cross-compile for different target platforms.
+Kris requires [GNU Make][] and [Zig][] to be installed and available on your
+PATH. Zig is used to cross-compile for different target platforms.
 
+[GNU Make]: https://www.gnu.org/software/make/
 [Zig]: https://ziglang.org/
 
 ## Installing
