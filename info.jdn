@@ -1,0 +1,18 @@
+{:name "kris"
+ :version "DEVEL"
+ :description "Cross-compile Janet for multiple platforms using Zig"
+ :author "Michael Camilleri"
+ :license "MIT"
+ :url "https://github.com/pyrmont/kris"
+ :repo "git+https://github.com/pyrmont/kris"
+ :dependencies []
+ :vendored [{:name "argy-bargy"
+             :url "https://github.com/pyrmont/argy-bargy"
+             :prefix "deps/argy-bargy"
+             :paths ["argy-bargy.janet"
+                     "LICENSE"]}]
+ :artifacts {:libraries [{:prefix "kris"
+                          :paths ["deps"
+                                  "lib"]}]
+             # :manpages ["man/man1/kris.1"]
+             :scripts [{:path "bin/kris"}]}}
