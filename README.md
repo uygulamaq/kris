@@ -1,5 +1,6 @@
 # Kris
 
+[![Latest Release](https://img.shields.io/github/v/release/pyrmont/kris)](https://github.com/pyrmont/kris/releases/latest)
 [![Test Status](https://github.com/pyrmont/kris/workflows/test/badge.svg)](https://github.com/pyrmont/kris/actions?query=workflow%3Atest)
 
 Kris is a tool for cross-compiling Janet projects for multiple platforms using
